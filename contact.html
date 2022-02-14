@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact_form.css" />
+    <title>Contact Form</title>
+</head>
+<body>
+    <h1>Have some questions?</h1>
+    <div class="box">
+      &#127759 India &nbsp; &nbsp; <span style="color: rgb(16, 156, 236); text-decoration:underline rgb(16, 156, 236);">Uk</span> &NonBreakingSpace;<span style="text-transform: capitalize;">: Strada 31 August 1989 78. Chisinau,MD-2012</span> 
+    </div>
+  
+  <img src="contact.jpg" alt="Image">
+  
+  <div class="container">
+    <form action="">
+      <p>
+        <input type="text" required name="Fname" placeholder="First Name" />
+      </p>
+      <p>
+        <input type="text" required name="Lname" placeholder="Last Name" />
+      </p>
+      <p>
+        <input
+          type="email"
+          required
+          name="email"
+          id="email"
+          placeholder="What's Your Email"
+        />
+      </p>
+      <p>
+        <select name="course-select" id="course-select" required>
+          <option value=""> Select an Enquiry </option>
+          <option value=""> Payment </option>
+          <option value=""> Transation </option>
+        </select>
+      </p>
+      <p>
+        <textarea
+          name="questions"
+          id="questions"
+          cols="40"
+          rows="8"
+          placeholder="Your Questions"
+        ></textarea>
+      </p>
+      <p><input type="submit" value="Send Message" /></p>
+    </form>
+  </div>
+</body>
+</html>
